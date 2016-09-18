@@ -16,8 +16,8 @@ Plugin 'VundleVim/Vundle.vim'
 "----------------------------------------
 Plugin 'altercation/vim-colors-solarized'   " Precision colorscheme for the vim text editor
 Plugin 'tomasr/molokai'                     " Molokai color scheme for Vim
-Plugin 'vim-airline/vim-airline'		        " Status/tabline improvement
-Plugin 'vim-airline/vim-airline-themes'     " Theme for vim-airline
+"Plugin 'vim-airline/vim-airline'		        " Status/tabline improvement
+"Plugin 'vim-airline/vim-airline-themes'     " Theme for vim-airline
 "Plugin 'lilydjwg/colorizer'                 " Color all text in the form #rrggbb or #rgb
 Plugin 'scrooloose/nerdtree'                " A tree explorer plugin for vim
 Plugin 'nathanaelkane/vim-indent-guides'    " Visually displaying indent levels
