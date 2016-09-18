@@ -14,7 +14,8 @@ set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 filetype plugin indent on
 set nobackup
 set noswapfile
-
+set hidden                      " Hide buffer when abandoned
+set autowriteall                " Automatically save buffer before hidden
 
 "----------------------------------------
 " Vim UI
@@ -73,12 +74,12 @@ set laststatus=2	            	" 2 lines of status, for vim-airline to always
 " Wrapping and Scrolling
 "----------------------------------------
 
-set nowrap		                  	" Soft wrap together with linebreak
+set wrap		                  	" Soft wrap together with linebreak
 set linebreak
 " Move by screen lines, not by real line.
 noremap j gj
 noremap k gk
-set scrolloff=5		            	" Start scrolling 5 lines away from margins
+set scrolloff=3		            	" Start scrolling 5 lines away from margins
 
 "----------------------------------------
 " Search

@@ -18,7 +18,7 @@ Plugin 'altercation/vim-colors-solarized'   " Precision colorscheme for the vim 
 Plugin 'tomasr/molokai'                     " Molokai color scheme for Vim
 Plugin 'vim-airline/vim-airline'		        " Status/tabline improvement
 Plugin 'vim-airline/vim-airline-themes'     " Theme for vim-airline
-Plugin 'lilydjwg/colorizer'                 " Color all text in the form #rrggbb or #rgb
+"Plugin 'lilydjwg/colorizer'                 " Color all text in the form #rrggbb or #rgb
 Plugin 'scrooloose/nerdtree'                " A tree explorer plugin for vim
 Plugin 'nathanaelkane/vim-indent-guides'    " Visually displaying indent levels
 
@@ -39,8 +39,8 @@ Plugin 'tpope/vim-fugitive'                 " a Git wrapper so awesome, it shoul
 Plugin 'tpope/vim-rails'                    " Ruby on Rails
 Plugin 'godlygeek/tabular'                  " Vim script for text filtering and alignment. Required for vim-markdown
 Plugin 'plasticboy/vim-markdown'            " Markdown
-Plugin 'mattn/emmet-vim'                   " Support for Html/CSS
-
+Plugin 'mattn/emmet-vim'                    " Support for Html/CSS
+Plugin 'lilydjwg/fcitx.vim'                 " Keep and restore fcitx state leaving/re-entering insert mode
 
 "----------------------------------------
 " Vundle Setup Tail
