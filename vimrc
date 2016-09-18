@@ -34,7 +34,13 @@ set showmatch		              	" Show matching bracket
 set matchtime=2		            	" Show matching bracket for 0.2 seconds
 set matchpairs+=<:>	          	" Specially for html
 " A hybrid font of MS YaHei & MS Consolas
-set guifont=YaHei\ Consolas\ Hybrid\ 14
+if has("gui_running")
+  if has("gui_win32")
+    set guifont=Consolas:h14:cANSI
+  elseif has("gui_gtk2")
+    set guifont=YaHei\ Consolas\ Hybrid\ 14
+  endif
+endif
 " enable syntax hightlight and completion
 syntax enable
 syntax on
@@ -89,6 +95,7 @@ set incsearch       	        	" Find the next match as we type the search
 set hlsearch        	        	" Highlight searches by default
 set ignorecase      	        	" Ignore case when searching...
 set smartcase               		" ...unless we type a capital
+nnoremap <CR> :noh<CR><CR>      " Unset last search highlighting
 
 "----------------------------------------
 " Indentation
