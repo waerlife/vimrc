@@ -32,6 +32,7 @@ Plugin 'tpope/vim-surround'                 " Quoting/parenthesizing made simple
 Plugin 'scrooloose/nerdcommenter'           " Vim plugin for intensely orgasmic commenting
 Plugin 'scrooloose/syntastic'               " Syntax checking hacks for vim
 Plugin 'tpope/vim-fugitive'                 " a Git wrapper so awesome, it should be illegal
+Plugin 'vim-latex/vim-latex'                " Vim-LaTeX Suite
 
 "----------------------------------------
 " Language Support
