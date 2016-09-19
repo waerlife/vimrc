@@ -23,7 +23,7 @@ let g:colorizer_maxlines = 1000             " Does not work well in large files
 "----------------------------------------
 " scrooloose/nerdtree
 "----------------------------------------
-autocmd vimenter * NERDTree                 " Auto start
+"autocmd vimenter * NERDTree                 " Auto start
 " NERDTree Toggle
 map <C-n> :NERDTreeToggle<CR>
 " Close Vim if the only window left open is a NERDTree
