@@ -37,6 +37,7 @@ Plugin 'vim-latex/vim-latex'                " Vim-LaTeX Suite
 "----------------------------------------
 " Language Support
 "----------------------------------------
+Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'                    " Ruby on Rails
 Plugin 'godlygeek/tabular'                  " Vim script for text filtering and alignment. Required for vim-markdown
 Plugin 'plasticboy/vim-markdown'            " Markdown
