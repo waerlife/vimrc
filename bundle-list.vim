@@ -33,6 +33,7 @@ Plugin 'scrooloose/nerdcommenter'           " Vim plugin for intensely orgasmic 
 Plugin 'scrooloose/syntastic'               " Syntax checking hacks for vim
 Plugin 'tpope/vim-fugitive'                 " a Git wrapper so awesome, it should be illegal
 Plugin 'vim-latex/vim-latex'                " Vim-LaTeX Suite
+Plugin 'jeetsukumaran/vim-indentwise'       " Indent level based motion
 
 "----------------------------------------
 " Language Support

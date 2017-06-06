@@ -55,6 +55,9 @@ set history=1000                " Store lots of :cmdline history
 set visualbell                  " No sounds
 set autoread                    " Reload files changed outside vim
 set mouse=a		                	" Enable mouse in all modes
+" Insert current date
+:nnoremap <F5> "=strftime("%Y-%m-%d")<CR>P
+:inoremap <F5> <C-R>=strftime("%Y-%m-%d")<CR>
 
 "----------------------------------------
 " Vim Command Completion
